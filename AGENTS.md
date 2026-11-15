@@ -6,6 +6,7 @@
 - Local Git uses main and origin points to xZezza/Beyond. Preserve existing history when synchronizing. Connecting or pushing source code does not authorize deploying the website.
 - Zero new spend: no domain, website deployment, account creation, paid services, image generation or purchases. The prototype runs locally; source code may be synchronized to the user-supplied repository.
 - English is the default language, with an English/Italian switch. Persist the language preference separately from diary entries; never translate or overwrite personal notes. Search accepts both vocabularies.
+- Use pnpm 10.34.9, pinned in package.json, with pnpm-lock.yaml as the only dependency lockfile. The user is configuring Vercel. Keep static Astro hosting compatible: build pnpm run build, output dist/client, automatic install detection with ENABLE_EXPERIMENTAL_COREPACK=1. Do not deploy from the agent without a request to do so.
 - Desktop and mobile browser experience, using Astro + TypeScript and React/Motion for interactions.
 - Cinematic ivory serif typography on deep blue-black space imagery, restrained amber, small research spacecraft.
 - Free choice of destinations at all times. No mandatory sequence or unlocks.
@@ -20,4 +21,4 @@ Before making substantial visual changes, use the Product Design plugin's `get-c
 
 When implementing from a selected generated mock, treat that image as the source of truth for layout, component anatomy, density, spacing, color, typography, visible content, and hierarchy.
 
-Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts/prepare-sites-build.mjs`, and `tests/sites-worker.test.mjs` intact so the same local prototype can be handed to Sites. Before a Sites handoff, run `npm run build` and `npm run test:sites`; the build must leave `dist/client/index.html`, `dist/server/index.js`, and `dist/.openai/hosting.json`.
+Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts/prepare-sites-build.mjs`, and `tests/sites-worker.test.mjs` intact so the same local prototype can be handed to Sites. Before a Sites handoff, run `pnpm run build` and `pnpm run test:sites`; the build must leave `dist/client/index.html`, `dist/server/index.js`, and `dist/.openai/hosting.json`.

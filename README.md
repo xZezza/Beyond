@@ -15,15 +15,28 @@ Il flusso di lavoro è: una modifica circoscritta → anteprima e controlli pert
 Il server di sviluppo viene avviato dall’agente su `http://127.0.0.1:4173/`. Per riaprirlo in seguito dalla cartella del progetto:
 
 ```sh
-npm install
-npm run dev
+pnpm install --frozen-lockfile
+pnpm run dev
 ```
 
 ```sh
-npm run check       # controllo TypeScript
-npm run build       # sito statico in dist/client + wrapper del template
-npm run test:sites  # verifica del wrapper, senza pubblicazione
+pnpm run check       # controllo TypeScript
+pnpm run build       # sito statico in dist/client + wrapper del template
+pnpm run test:sites  # verifica del wrapper, senza pubblicazione
 ```
+
+## Configurazione Vercel
+
+Framework, build e cartella di output sono già dichiarati in `vercel.json`.
+
+- Framework Preset: Astro.
+- Root Directory: radice del repository (`.`).
+- Node.js Version: `24.x` nelle impostazioni Vercel.
+- Build Command: `pnpm run build`.
+- Output Directory: `dist/client`.
+- Install Command: lasciare l’override disattivato per il rilevamento automatico di `pnpm-lock.yaml`.
+- `packageManager` fissa pnpm 10.34.9. Per usare esattamente questa versione su Vercel, impostare `ENABLE_EXPERIMENTAL_COREPACK=1` negli ambienti di build.
+- Non servono altre variabili, database o Supabase per il prototipo attuale.
 
 ## Tecnologia
 

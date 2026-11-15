@@ -95,3 +95,13 @@ final result: passed
 - Screenshot: `work/qa/home-en.jpg`, `work/qa/home-en-mobile.jpg`, `work/qa/journal-en.jpg`, `work/qa/library-en-mobile.jpg`.
 
 Il progetto rimane locale e non introduce dipendenze, servizi o costi nuovi.
+
+
+## Migrazione pnpm e configurazione Vercel — 15 novembre 2026
+
+- pnpm 10.34.9 fissato in `packageManager`; lockfile importato da npm e `package-lock.json` sostituito da `pnpm-lock.yaml`.
+- Installazione ripetuta in modalità CI con `--frozen-lockfile`, da dipendenze ricreate, conclusa correttamente. Gli script necessari di esbuild e sharp sono esplicitamente consentiti in `pnpm-workspace.yaml`.
+- TypeScript, build Astro e i quattro test di packaging superati usando pnpm. La build genera `dist/client/index.html` e conserva il wrapper Sites.
+- La build segnala due annotazioni PURE non interpretabili in Zod; Rollup le rimuove e la build termina correttamente.
+- `vercel.json` dichiara preset Astro, `pnpm run build` e output `dist/client`. Istruzioni Vercel aggiunte al README; nessun deploy eseguito dall’agente.
+- Nessuna modifica alla UI o al diario; nessun nuovo controllo visivo richiesto per il cambio di package manager.

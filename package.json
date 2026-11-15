@@ -20,5 +20,10 @@
     "@fontsource/cormorant-garamond": "^5.2.0",
     "@fontsource/inter": "^5.2.0"
   },
-  "devDependencies": {"typescript": "^5.9.0", "@types/react": "^19.0.0", "@types/react-dom": "^19.0.0"}
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  },
+  "packageManager": "pnpm@10.34.9"
 }

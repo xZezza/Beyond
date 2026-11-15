@@ -3,6 +3,7 @@ dist/
 .astro/
 work/
 .DS_Store
+.vercel/
 
 # Local configuration and credentials
 .env
