@@ -1,14 +1,14 @@
-# OLTRE — prototipo locale
+# Beyond — prototipo locale
 
 Un viaggio libero tra scoperte dello spazio, approfondimenti e letture. Questa versione permette di partire dalla Terra, scegliere subito una delle tre destinazioni (‘Oumuamua, Saturno, buco nero), consultare fonti, salvare le scoperte nel diario, aggiungere note e aprire un libro collegato.
 
-OLTRE è il nome provvisorio del prototipo. Il nome definitivo sarà scelto insieme per un pubblico internazionale.
+Il repository del progetto è [xZezza/Beyond](https://github.com/xZezza/Beyond). OLTRE è il nome precedente ancora presente nell’interfaccia del prototipo e nei concept grafici; l’aggiornamento dell’identità visiva sarà affrontato nella fase di design.
 
 ## Repository locale
 
-Il repository Git si trova in questa cartella del progetto e usa il branch `main`. Non è collegato a un repository remoto. Il codice, il lockfile, la documentazione e gli asset fanno parte della cronologia; dipendenze, build, file temporanei e configurazioni `.env` sono esclusi.
+Il repository Git si trova in questa cartella del progetto, usa il branch `main` e ha `https://github.com/xZezza/Beyond.git` come remoto `origin`. Il codice, il lockfile, la documentazione e gli asset fanno parte della cronologia; dipendenze, build, file temporanei e configurazioni `.env` sono esclusi.
 
-Il flusso di lavoro è: una modifica circoscritta → anteprima e controlli pertinenti → commit con una descrizione chiara. Per interventi più grandi si apre un branch dedicato e si integra in `main` dopo la revisione. Un commit conserva una versione locale; il push invia i commit al repository remoto, quando sarà configurato.
+Il flusso di lavoro è: una modifica circoscritta → anteprima e controlli pertinenti → commit con una descrizione chiara. Per interventi più grandi si apre un branch dedicato e si integra in `main` dopo la revisione. Un commit conserva una versione locale; il push invia i commit al repository remoto.
 
 ## Avvio e comandi
 
@@ -64,7 +64,7 @@ La copertina di Rama e la navicella sono ritagli visivi non distruttivi dei conc
 
 I file originali e la provenienza sono in `public/assets/sources.json`. Le copie WebP conservano i soggetti originali e riducono la dimensione dei file per il web. Fotografie e ricostruzioni NASA/ESO hanno attribuzione nel sito; le ricostruzioni sono indicate sulle singole immagini.
 
-Il progetto resta locale. Non sono stati acquistati servizi, registrati domini o attivati abbonamenti; non è stata fatta una nuova generazione di immagini.
+Il prototipo viene eseguito localmente e il codice è collegato al repository GitHub fornito dall’utente. Non sono stati acquistati servizi, registrati domini o attivati abbonamenti; non è stata fatta una nuova generazione di immagini né pubblicato il sito.
 
 ## Prossime verifiche di prodotto
 

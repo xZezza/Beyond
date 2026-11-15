@@ -1,10 +1,10 @@
 # Prototype Instructions
 
-## OLTRE decisions confirmed with the user
+## Beyond decisions confirmed with the user
 
-- OLTRE is a provisional name. The user wants an English-facing identity; choose the final name together before naming a remote repository or changing the site's branding.
-- Set up local Git first. Remote hosting and repository creation are separate steps; keep the prototype local until the user chooses to connect it.
-- Local prototype only. Zero new spend: no domain, deployment, account creation, paid services, image generation or purchases.
+- The user supplied https://github.com/xZezza/Beyond.git as the project's remote repository and authorized connecting the local prototype. Use Beyond as the repository/project name. OLTRE remains legacy branding in the current UI and approved concept assets; UI branding can be addressed during design work.
+- Local Git uses main and origin points to xZezza/Beyond. Preserve existing history when synchronizing. Connecting or pushing source code does not authorize deploying the website.
+- Zero new spend: no domain, website deployment, account creation, paid services, image generation or purchases. The prototype runs locally; source code may be synchronized to the user-supplied repository.
 - English is the default language, with an English/Italian switch. Persist the language preference separately from diary entries; never translate or overwrite personal notes. Search accepts both vocabularies.
 - Desktop and mobile browser experience, using Astro + TypeScript and React/Motion for interactions.
 - Cinematic ivory serif typography on deep blue-black space imagery, restrained amber, small research spacecraft.
