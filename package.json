@@ -1,0 +1,24 @@
+{
+  "name": "oltre-prototipo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/prepare-sites-build.mjs",
+    "preview": "astro preview",
+    "check": "tsc --noEmit",
+    "test:sites": "node --test tests/sites-worker.test.mjs"
+  },
+  "dependencies": {
+    "astro": "^6.0.0",
+    "@astrojs/react": "^5.0.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "motion": "12.23.24",
+    "@phosphor-icons/react": "^2.1.10",
+    "@fontsource/cormorant-garamond": "^5.2.0",
+    "@fontsource/inter": "^5.2.0"
+  },
+  "devDependencies": {"typescript": "^5.9.0", "@types/react": "^19.0.0", "@types/react-dom": "^19.0.0"}
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.astro/
+work/
+.DS_Store
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+*.log

@@ -1,0 +1,24 @@
+---
+import Oltre from '../components/Oltre';
+import '@fontsource/cormorant-garamond/500.css';
+import '@fontsource/cormorant-garamond/600.css';
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/600.css';
+import '../styles/oltre.css';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#070c12" />
+    <meta name="description" content="OLTRE: a free journey through space discoveries, open questions and books. Explore three destinations and build your own logbook." />
+    <title>OLTRE — Earth is just the beginning</title>
+    <link rel="icon" type="image/webp" href="/assets/earth-blue-marble-nasa.webp" />
+  </head>
+  <body>
+    <Oltre client:load />
+    <noscript><main style="padding: 4rem; color: #f4eddd; background: #070c12; font-family: sans-serif"><h1>OLTRE</h1><p>A journey through Saturn, ‘Oumuamua and black holes. Enable JavaScript in your browser to explore the map and save your logbook.</p><p>Sources: <a href="https://science.nasa.gov/saturn/">Saturn — NASA</a>, <a href="https://science.nasa.gov/solar-system/comets/oumuamua/">‘Oumuamua — NASA</a>, <a href="https://science.nasa.gov/universe/black-holes/">Black holes — NASA</a>.</p></main></noscript>
+  </body>
+</html>

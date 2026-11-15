@@ -1,0 +1,98 @@
+{
+  "assets": [
+    {
+      "file": "earth-blue-marble-nasa.jpg",
+      "source_page": "https://images.nasa.gov/details/as17-148-22727",
+      "download_url": "https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg",
+      "credit": "NASA / Apollo 17 crew",
+      "type": "photograph",
+      "notes": "Inspected: full Earth on black, no UI/text. 4579 x 4579. Preferred Earth asset.",
+      "bytes": 1915552
+    },
+    {
+      "file": "earth-horizon-nasa.jpg",
+      "source_page": "https://images.nasa.gov/details/s114e6076",
+      "download_url": "https://images-assets.nasa.gov/image/s114e6076/s114e6076~orig.jpg",
+      "credit": "NASA / STS-114 crew",
+      "type": "photograph",
+      "notes": "Inspected: Earth limb but contains Shuttle/ISS hardware and bottom photo ID; less suitable for hero.",
+      "bytes": 795249
+    },
+    {
+      "file": "milky-way-eso.jpg",
+      "source_page": "https://www.eso.org/public/images/eso0932a/",
+      "download_url": "https://cdn.eso.org/images/publicationjpg/eso0932a.jpg",
+      "credit": "ESO / S. Brunier",
+      "type": "photographic panorama",
+      "notes": "Inspected: 4000 x 2000 horizontal panorama. Use with ESO credit; image licensing link at source page.",
+      "bytes": 4857484
+    },
+    {
+      "file": "oumuamua-eso.jpg",
+      "source_page": "https://www.eso.org/public/images/eso1737a/",
+      "download_url": "https://cdn.eso.org/images/screen/eso1737a.jpg",
+      "credit": "ESO / M. Kornmesser",
+      "type": "artist impression",
+      "notes": "Inspected: 1280 x 800 elongated irregular dark rock on starfield, not observed shape. Label as artistic reconstruction; true shape unknown.",
+      "bytes": 212532
+    },
+    {
+      "file": "oumuamua-hubble-nasa.jpg",
+      "source_page": "https://science.nasa.gov/asset/hubble/artists-impression-of-oumuamua-non-annotated/",
+      "download_url": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2018/06/STScI-01EVSZYK98KJDSB5JD4QE8CY4Q.tif/jcr%3Acontent/renditions/cq5dam.web.1280.1280.jpeg",
+      "credit": "NASA, ESA, J. Olmsted and F. Summers (STScI)",
+      "type": "artist impression",
+      "notes": "Inspected: alternate model, 1280 x 720, showing hypothetical outgassing. Label as artist model, not photograph.",
+      "bytes": 140542
+    },
+    {
+      "file": "saturn-cassini-nasa.jpg",
+      "source_page": "https://science.nasa.gov/resource/a-splendor-seldom-seen-2/",
+      "download_url": "https://images-assets.nasa.gov/image/PIA14934/PIA14934~orig.jpg",
+      "credit": "NASA / JPL-Caltech / Space Science Institute",
+      "type": "enhanced-color photograph mosaic",
+      "notes": "Inspected: 6672 x 3104, Saturn shadow and backlit rings, deep black. Spectral filters combined; not natural color.",
+      "bytes": 734942
+    },
+    {
+      "file": "spacecraft-new-horizons-nasa.png",
+      "source_page": "https://science.nasa.gov/multimedia/spacecraft-icons/",
+      "download_url": "https://science.nasa.gov/wp-content/uploads/2023/10/new_horizons_b-2.png",
+      "credit": "NASA",
+      "type": "transparent spacecraft render",
+      "notes": "Inspected: actual New Horizons spacecraft icon, visually a gold probe with dish; differs from imaginary pointed vessel in mockup.",
+      "bytes": 3104933
+    },
+    {
+      "file": "spacecraft-cassini-nasa.png",
+      "source_page": "https://science.nasa.gov/multimedia/spacecraft-icons/",
+      "download_url": "https://science.nasa.gov/wp-content/uploads/2023/05/cassini.png",
+      "credit": "NASA",
+      "type": "transparent spacecraft render",
+      "notes": "Inspected: actual Cassini spacecraft icon, dish and gold module; differs from imaginary pointed vessel in mockup.",
+      "bytes": 4243095
+    },
+    {
+      "file": "black-hole-nasa.jpg",
+      "source_page": "https://svs.gsfc.nasa.gov/13326",
+      "download_url": "https://svs.gsfc.nasa.gov/vis/a010000/a013300/a013326/BH_AccretionDisk_360_4k.00250_print.jpg",
+      "credit": "NASA’s Goddard Space Flight Center / Jeremy Schnittman",
+      "type": "scientific visualization / simulated black hole accretion disk",
+      "notes": "Inspected: clean unlabeled 1024 x 1024 orange-red accretion disk on black, oblique flattened view. This is a visualization, not a photograph. Unmodified download.",
+      "bytes": 46915
+    }
+  ],
+  "downloaded_unmodified": true,
+  "new_spend": 0,
+  "web_derivatives": {
+    "format": "WebP",
+    "purpose": "Web delivery optimization; same aspect ratio, original source assets retained",
+    "files": [
+      "earth-blue-marble-nasa.webp",
+      "milky-way-eso.webp",
+      "oumuamua-eso.webp",
+      "saturn-cassini-nasa.webp",
+      "black-hole-nasa.webp"
+    ]
+  }
+}
